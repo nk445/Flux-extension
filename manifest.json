@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Flux",
+  "version": "1.0",
+  "description": "A calm way to browse. Flux notices when you’re moving too fast, helps you breathe, and automatically cleans up your tabs so you can focus on what matters.",
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "storage",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
