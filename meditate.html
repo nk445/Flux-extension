@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { 
+      display: flex; flex-direction: column; align-items: center; 
+      justify-content: center; height: 100vh; background: #f0f4f8; font-family: sans-serif;
+    }
+    .circle {
+      width: 75px; height: 75px; background: #4db6ac; border-radius: 50%;
+      animation: breathe 8s infinite ease-in-out;
+    }
+    @keyframes breathe {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(2); }
+    }
+    h1 { color: #2d4a53; font-weight: 300; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <div class="circle"></div>
+  <h1>Breathe</h1>
+  <h2>Focus on the space in between breaths.</h2>
+</body>
+</html>
